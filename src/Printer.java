@@ -2,12 +2,19 @@ public class Printer {
 
     String color;
     double length;
-    double with;
+    double width;
     double heigth;
     String  name;
-    boolean isPrintingInColor;
+    Boolean isPrintingInColor;
 
-    Printer(){
+    Printer(String c,double l, double w,double h, String n, boolean ipic){
 
+        color = c;
+        length = l;
+        width = w;
+        heigth = h;
+        name = n;
+        isPrintingInColor = ipic;
     }
+
 }
